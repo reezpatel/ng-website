@@ -1,0 +1,139 @@
+.bg {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  height: 70%;
+
+  background-image: url('./../../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  margin: 8% 25% 0 25%;
+}
+
+mat-card {
+  min-height: 60vh;
+  position: relative;
+}
+
+.bottom-bar {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  padding: 15px;
+
+  background-color: #30CC7B;
+}
+
+a.icon {
+  font-size: 25px;
+  padding: 0 15px;
+  line-height: 30px;
+}
+
+.row {
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 60px;
+}
+
+.col-1 {
+  margin: 25px;
+  flex: 1 1 40%;
+  position: relative;
+}
+
+.col-2 {
+  margin: 25px;
+  margin-left: 0;
+  flex: 1 1 60%;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url('./../../assets/me.png');
+  background-size: cover;
+  background-position: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.resume {
+  text-align: center;
+  margin-top: 30px;
+}
+
+div.resume a {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #30CC7B;
+  display: inline-block;
+
+  letter-spacing: 2px;
+
+  padding: 10px;
+
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: all 0.3s;
+  border: 2px solid #30CC7B;
+}
+
+div.resume a:hover {
+  transform: scale(1.2, 1.2);
+  border-radius: 0;
+  color: white;
+  background-color: #30CC7B;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 5% 5% 0 5%;
+  }
+  .col-1 {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+  }
+
+  .img {
+    display: inline-block;
+    left: 25%;
+    transform: translateX(-25%);
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+
+  }
+
+  .col-2 {
+    display: block;
+  }
+
+  .row {
+    display: block;
+    position: initial;
+    margin: 25px;
+    margin-bottom: 60px;
+  }
+
+}

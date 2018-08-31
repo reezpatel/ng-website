@@ -1,0 +1,52 @@
+.chip {
+  background-color: rgb(253, 126, 52);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 8px;
+  line-height: 15px;
+  display: inline-block;
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 45px;
+  font-weight: 300;
+}
+
+p.name span {
+  font-weight: 400;
+}
+
+.status {
+  font-weight: 500;
+  color: rgb(143, 141, 141);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.divider {
+  margin: 10px 0;
+  border-bottom: 2px solid #cecece;
+  height: 2px;
+  display: block;
+}
+
+table, tr {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+td {
+  padding-bottom: 5px;
+}
+
+td.title {
+  text-transform: uppercase;
+}
+
+td.title {
+  width: 40%;
+  font-weight: bold;
+}

@@ -1,0 +1,113 @@
+div.title {
+  text-align: center;
+}
+
+div.title p {
+  margin-top: 35px;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px;
+  letter-spacing: 3px;
+}
+
+div.projects {
+  margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+mat-card {
+  flex: 0 1 23%;
+  padding: 0px;
+
+  margin: 1%;
+  margin-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+div.content {
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+div.content p.title {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+div.content p.text {
+  margin-top: 15px;
+  text-align: justify;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  margin-top: 15px;
+}
+
+.buttons a {
+  flex: 1 1 0;
+}
+
+.tools {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.fab {
+  padding: 0 10px;
+}
+
+.fa-android {
+  color: #A4CA39;
+}
+
+.fa-node-js {
+  color: #99BE4F;
+}
+
+.fa-css3-alt {
+  color: #1572B6;
+}
+
+.fa-html5 {
+  color: #E54D26;
+}
+
+.fa-js {
+  color: rgb(236, 213, 32);
+}
+
+.fa-php {
+  color: #5A68A5;
+}
+
+.fa-angular {
+  color: #C3002F;
+}
+
+img.icon {
+  width: 25px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.projects {
+    display: block;
+  }
+}
